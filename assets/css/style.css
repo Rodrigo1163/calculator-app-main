@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(222, 26%, 31%);
+}
+
+.container{
+    
+    width: 400px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: hsl(222, 26%, 31%);
+}
+header h3{
+    font-weight: 500;
+
+}
+.theme{
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    gap: 18px;
+    
+}
+.buttonTheme{
+    background-color: hsl(224, 36%, 15%);
+    width: 50px;
+    height: 20px;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+#buttonTheme{
+    background-color: brown;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: 4px;
+}
+#theme{
+    display: none;
+}
+
+.inforLabel {
+    display: flex;
+    flex-direction: column;
+    margin-top: -17px;
+}
+.inforLabel span{
+    text-align: center;
+    word-spacing: 8px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: hsl(222, 26%, 31%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.display input{
+    width: 100%;
+    height: 2em;
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+    text-align: end;
+    padding-right: 30px;
+}
+
+.tecla{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 10px;
+}
+.btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+}
+.btnReset, .btnEq{
+    width: 160px;
+    font-size: 20px;
+    color: white;
+}
+.btnReset{
+    background-color: hsl(222, 26%, 31%);
+}
+.btnEq{
+    background-color: hsl(6, 63%, 50%);
+}
+td {
+    padding: 8px;
+}
