@@ -46,6 +46,7 @@ two.addEventListener('click', () => {
 
 })
     const one = document.querySelector('.button-one');
+    
     one.addEventListener('click', () => {
     var body = document.querySelector('body');
     body.classList.toggle("transicao");
@@ -77,6 +78,7 @@ two.addEventListener('click', () => {
         btn[i].style.borderBottom = "";
         
     }
+  
     })
 
 const three = document.querySelector('.button-three');
