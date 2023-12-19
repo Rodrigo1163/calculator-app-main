@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+:root{
+    /* thme one */
+    --backgroundBodyOne: hsl(222, 26%, 31%);
+    /* thme twe */
+    --backgroundBodyTwe: hsl(0, 0%, 90%);
+    /* thme three */
+    --backgroundBodyThree: hsl(268, 75%, 9%);
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -11,7 +21,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(222, 26%, 31%);
+    background-color: var(--backgroundBodyOne);
+
 }
 
 .container{
@@ -37,8 +48,6 @@ header h3{
 }
 .labelButtonTheme{
     background-color: hsl(224, 36%, 15%);
-    width: 50px;
-    height: 20px;
     outline: none;
     border-radius: 10px;
     display: flex;
@@ -47,13 +56,24 @@ header h3{
     
 }
 #buttonTheme{
-    background-color: brown;
+    transition: 0.2s;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     outline: none;
     border: none;
     margin-left: 4px;
+    cursor: pointer;
+    margin: 2px 5px 2px 5px;
+}
+.button-one{    
+    background-color: brown;
+}
+.button-twe:hover{    
+    background-color: white;
+}
+.button-three:hover{    
+    background-color: blueviolet;
 }
 #theme{
     display: none;
