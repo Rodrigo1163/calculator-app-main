@@ -26,7 +26,7 @@ two.addEventListener('click', () => {
     display.classList.add("transicao");
     displayInput.style.color = "var(--TextTwo)"
     displayInput.classList.add("transicao");
-    toggle.style.backgroundColor = "var(--toggleOne)"
+    toggle.style.backgroundColor = "var(--toggleTwo)"
     toggle.classList.add("transicao");
     btnDel.style.backgroundColor = "var(--bottonsClearsTwo)"
     btnDel.style.color = "var(--colorWhite)"
@@ -43,7 +43,7 @@ two.addEventListener('click', () => {
         btn[i].style.color = "var(--TextTwo)"
         btn[i].style.backgroundColor = "var(--backgroungNumbersOne)"
         btn[i].classList.add('border2')
-        btn[i].style.borderBottom = "3px solid rgb(151, 150, 150)";
+        btn[i].style.borderBottom = "3px solid var(--borderNumTwo)";
         
     }
     
@@ -88,18 +88,18 @@ function adicionaHoverTwo(){
     display.classList.add("transicao");
     displayInput.style.color = "var(--TextWhiteThree)"
     displayInput.classList.add("transicao");
-    toggle.style.backgroundColor = "hsl(223, 31%, 20%)"
+    toggle.style.backgroundColor = "var(--toggleOne)"
     toggle.classList.add("transicao");
     btnDel.style.backgroundColor = "var(--backgroundDelOne)"
     btnDel.style.color = "var(--TextWhiteThree)"
-    btnDel.style.borderBottom = ""
+    btnDel.style.borderBottom = "3px solid var(--borderClearsOne)"
     btnDel.classList.add("transicao");
     btnReset.style.backgroundColor = "var(--backgroundDelOne)"
-    btnReset.style.borderBottom = ""
+    btnReset.style.borderBottom = "3px solid var(--borderClearsOne)"
     btnReset.classList.add("transicao");
     btnEq.style.backgroundColor = "var(--backgroundEqOne)"
     btnEq.style.color = "var(--colorWhite)"
-    btnEq.style.borderBottom = ""
+    btnEq.style.borderBottom = "3px solid var(--borderEqOne)"
     btnEq.classList.add("transicao");
     
     for(let i = 0; i <= 15; i++){
@@ -154,14 +154,14 @@ three.addEventListener('click', () => {
     toggle.style.backgroundColor = "var(--toggleThree)"
     toggle.classList.add("transicao");
     btnDel.style.backgroundColor = "var(--buttonsClearsThree)"
-    btnDel.style.color = "white"
+    btnDel.style.color = "var(--colorWhite)"
     btnDel.style.borderBottom = "3px solid var(--borderClearsThree)"
     btnDel.classList.add("transicao");
     btnReset.style.backgroundColor = "var(--buttonsClearsThree)"
     btnReset.style.borderBottom = "3px solid var(--borderClearsThree)"
     btnReset.classList.add("transicao");
     btnEq.style.backgroundColor = "var(--buttonEqThree)"
-    btnEq.style.color = "black"
+    btnEq.style.color = "var(--btnEqColor)"
     btnEq.style.borderBottom = "3px solid var(--borderEqThree)"
     btnEq.classList.add("transicao");
     title.style.fontWeight = "700"

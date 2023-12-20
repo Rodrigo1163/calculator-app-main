@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 :root{
+    
     /* theme one */
     --backgroundBodyOne: hsl(222, 26%, 31%);
     --TextWhiteThree: white;
+    --toggleOne: hsl(223, 31%, 20%);
     --textButton: hsl(221, 14%, 31%);
     --colorDisplay: hsl(223, 31%, 20%);
     --backgroundDelOne: hsl(225, 21%, 49%);
-    --borderClearsOne: hsl(224, 32%, 31%);
     --backgroundEqOne: rgb(209, 55, 55);
     --hoverEqOne: rgb(236, 113, 91);
     --hoverClearsOne: hsl(226, 54%, 69%);
     --borderEqOne: rgb(128, 19, 0);
     --borderNumberOne: rgb(182, 182, 182);
+    --borderClearsOne: hsl(224, 32%, 31%);
 
     /* theme two */
     --backgroundBodyTwe: hsl(0, 0%, 90%);
@@ -20,17 +22,20 @@
     --colorWhite: white;
     --bottonsClearsTwo: hsl(185, 42%, 37%);
     --backgroungNumbersOne: rgb(231, 228, 228);
-    --toggleOne: hsl(0, 5%, 81%);
+    --toggleTwo: hsl(0, 5%, 81%);
     --borderClearsTwo: hsl(185, 58%, 25%);
     --backgroundEqTwo: hsl(25, 98%, 40%);
     --borderEqTwo: hsl(25, 99%, 27%);
+    --borderNumTwo: rgb(151, 150, 150);
     --hoverClearsTwo: hsl(185, 59%, 45%);
     --hoverEqTwo: hsl(25, 69%, 49%);
+
     /* thme three */
     --backgroundBodyThree: hsl(268, 75%, 9%);
     --textYellowThree: hsl(52, 100%, 62%);
     --toggleThree: hsl(268, 71%, 12%);
     --colorButtonThree: hsl(268, 47%, 21%);
+    --btnEqColor: black;
     --buttonsClearsThree: hsl(281, 89%, 26%);
     --buttonEqThree: hsl(176, 100%, 44%);
     --borderEqThree: hsl(176, 60%, 65%);
