@@ -10,7 +10,8 @@ let btnReset = document.querySelector('.btnReset')
 let btnEq = document.querySelector('.btnEq')
 let btn = document.querySelectorAll('.btnNumber');
 let title = document.querySelector(".theme")
-
+let backgroundToggle = document.querySelector('.labelButtonTheme');
+let num = document.querySelector('.btnNumber');
 const two = document.querySelector('.button-twe');
 two.addEventListener('click', () => {
     
@@ -39,6 +40,10 @@ two.addEventListener('click', () => {
     btnEq.style.borderBottom = "3px solid var(--borderEqOne)"
     btnEq.classList.add("transicao");
     title.style.fontWeight = "700"
+    backgroundToggle.style.backgroundColor =  "var(--toggleTwo)"
+    two.style.backgroundColor = "var(--backgroundToggleTwo)"
+    one.style.backgroundColor = "var(--toggleTwo)"
+    three.style.backgroundColor = "var(--toggleTwo)"
     for(let i = 0; i <= 15; i++){
         btn[i].style.color = "var(--TextTwo)"
         btn[i].style.backgroundColor = "var(--backgroungNumbersOne)"
@@ -70,6 +75,26 @@ function adicionaHoverTwo(){
     btnDel.addEventListener('mouseleave', function () {
         btnDel.style.backgroundColor = 'var(--bottonsClearsTwo)';
       });
+      two.addEventListener('mouseenter', function () {
+        two.style.backgroundColor = 'var(--backgroundTogglesTwoHover)';
+      });
+      two.addEventListener('mouseleave', function () {
+        two.style.backgroundColor = 'var(--backgroundToggleTwo)';
+      });
+
+      one.addEventListener('mouseenter', function () {
+        one.style.backgroundColor = 'var(--backgroundToggleOne)';
+      });
+      one.addEventListener('mouseleave', function () {
+        one.style.backgroundColor = 'var(--toggleTwo)';
+      });
+      
+      three.addEventListener('mouseenter', function () {
+        three.style.backgroundColor = 'var(--backgroundToggleThree)';
+      });
+      three.addEventListener('mouseleave', function () {
+        three.style.backgroundColor = 'var(--toggleTwo)';
+      });  
     
 }
     const one = document.querySelector('.button-one');
@@ -101,6 +126,10 @@ function adicionaHoverTwo(){
     btnEq.style.color = "var(--colorWhite)"
     btnEq.style.borderBottom = "3px solid var(--borderEqOne)"
     btnEq.classList.add("transicao");
+    backgroundToggle.style.backgroundColor = "var(--colorDisplay)"
+    one.style.backgroundColor = "var(--backgroundToggleOne)"
+    two.style.backgroundColor = "var(--colorDisplay)"
+    three.style.backgroundColor = "var(--colorDisplay)"
     
     for(let i = 0; i <= 15; i++){
         btn[i].style.backgroundColor = "var(--TextWhiteThree)"
@@ -133,6 +162,27 @@ function adicionaHoverTwo(){
         btnDel.addEventListener('mouseleave', function () {
             btnDel.style.backgroundColor = 'var(--backgroundDelOne)';
           });
+          one.addEventListener('mouseenter', function () {
+            one.style.backgroundColor = 'var(--backgroundToggleOneHover)';
+          });
+          one.addEventListener('mouseleave', function () {
+            one.style.backgroundColor = 'var(--backgroundToggleOne)';
+          });
+          
+          three.addEventListener('mouseenter', function () {
+            three.style.backgroundColor = 'var(--backgroundToggleThreeHover)';
+          });
+          three.addEventListener('mouseleave', function () {
+            three.style.backgroundColor = 'var(--colorDisplay)';
+          });
+          
+          two.addEventListener('mouseenter', function () {
+            two.style.backgroundColor = 'var(--backgroundToggleTwo)';
+          });
+          two.addEventListener('mouseleave', function () {
+            two.style.backgroundColor = 'var(--colorDisplay)';
+          });
+          
         
     }
 
@@ -164,7 +214,11 @@ three.addEventListener('click', () => {
     btnEq.style.color = "var(--btnEqColor)"
     btnEq.style.borderBottom = "3px solid var(--borderEqThree)"
     btnEq.classList.add("transicao");
-    title.style.fontWeight = "700"
+    
+    backgroundToggle.style.backgroundColor = "var(--toggleThree)";
+    one.style.backgroundColor = "var(--toggleThree)"
+    two.style.backgroundColor = "var(--toggleThree)"
+    three.style.backgroundColor = "var(--backgroundToggleThree)"
     for(let i = 0; i <= 15; i++){
         btn[i].style.color = "var(--textYellowThree)"
         btn[i].style.backgroundColor = "var(--colorButtonThree)"
@@ -195,6 +249,25 @@ function adicionaHoverThree(){
     btnDel.addEventListener('mouseleave', function () {
         btnDel.style.backgroundColor = 'var(--buttonsClearsThree)';
       });
+      three.addEventListener('mouseenter', function () {
+        three.style.backgroundColor = 'var(--backgroundToggleThreeHover)';
+      });
+      three.addEventListener('mouseleave', function () {
+        three.style.backgroundColor = 'var(--backgroundToggleThree)';
+      });
+      one.addEventListener('mouseenter', function () {
+        one.style.backgroundColor = 'var(--backgroundToggleOne)';
+      });
+      one.addEventListener('mouseleave', function () {
+        one.style.backgroundColor = 'var(--toggleThree)';
+      });
+      two.addEventListener('mouseenter', function () {
+        two.style.backgroundColor = 'var(--backgroundToggleTwo)';
+      });
+      two.addEventListener('mouseleave', function () {
+        two.style.backgroundColor = 'var(--toggleThree)';
+      });
+    
     
 }
 
