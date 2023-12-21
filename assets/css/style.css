@@ -3,7 +3,7 @@
     
     /* theme one */
     --backgroundBodyOne: hsl(222, 26%, 31%);
-    --TextWhiteThree: white;
+    --TextWhiteThree: rgb(172, 172, 172);
     --toggleOne: hsl(223, 31%, 20%);
     --textButton: hsl(221, 14%, 31%);
     --colorDisplay: hsl(223, 31%, 20%);
@@ -11,6 +11,7 @@
     --backgroundEqOne: rgb(209, 55, 55);
     --hoverEqOne: rgb(236, 113, 91);
     --hoverClearsOne: hsl(226, 54%, 69%);
+    --hoverTextButton: hsl(0, 0%, 100%);
     --borderEqOne: rgb(128, 19, 0);
     --borderNumberOne: rgb(182, 182, 182);
     --borderClearsOne: hsl(224, 32%, 31%);
@@ -31,6 +32,7 @@
     --borderNumTwo: rgb(151, 150, 150);
     --hoverClearsTwo: hsl(185, 59%, 45%);
     --hoverEqTwo: hsl(25, 69%, 49%);
+    --hoverBackgroungNumbersOne: rgb(255, 255, 255);
 
     --backgroundToggleTwo: orangered;
     --backgroundTogglesTwoHover: hsl(25, 69%, 49%);
@@ -48,6 +50,7 @@
     --borderNumbersThree: hsl(281, 97%, 37%);
     --hoverClearsThree: hsl(281, 90%, 35%);
     --hoverEqThree:hsl(176, 55%, 73%);
+    --hoverColorButtonThree: hsl(268, 47%, 45%);
     --backgroundToggleThree: aqua;
     --backgroundToggleThreeHover: rgb(169, 247, 247);
 }
@@ -190,7 +193,7 @@ header h3{
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--textButton);
     border-bottom: 3px solid var(--borderNumberOne);

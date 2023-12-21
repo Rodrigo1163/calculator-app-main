@@ -47,6 +47,7 @@ two.addEventListener('click', () => {
     one.style.backgroundColor = "var(--toggleTwo)"
     three.style.backgroundColor = "var(--toggleTwo)"
     for(let i = 0; i <= 15; i++){
+        btn[i].classList.add("transicao");
         btn[i].style.color = "var(--TextTwo)"
         btn[i].style.backgroundColor = "var(--backgroungNumbersOne)"
         btn[i].classList.add('border2')
@@ -97,6 +98,14 @@ function adicionaHoverTwo(){
       three.addEventListener('mouseleave', function () {
         three.style.backgroundColor = 'var(--toggleTwo)';
       });  
+      btn.forEach(valor => {
+        valor.addEventListener('mouseenter', () => {
+          valor.style.backgroundColor = "var(--hoverBackgroungNumbersOne)"
+        })
+        valor.addEventListener('mouseleave', () => {
+          valor.style.backgroundColor = "var(--backgroungNumbersOne)"
+        })
+      })
     
 }
     const one = document.querySelector('.button-one');
@@ -134,9 +143,9 @@ function adicionaHoverTwo(){
     three.style.backgroundColor = "var(--colorDisplay)"
     
     for(let i = 0; i <= 15; i++){
+        btn[i].classList.add("transicao");
         btn[i].style.backgroundColor = "var(--TextWhiteThree)"
         btn[i].style.color = "var(--textButton)"
-
         btn[i].classList.add('border2')
         btn[i].style.borderBottom = "3px solid var(--borderNumberOne)";
         
@@ -184,6 +193,14 @@ function adicionaHoverTwo(){
           two.addEventListener('mouseleave', function () {
             two.style.backgroundColor = 'var(--colorDisplay)';
           });
+          btn.forEach(valor => {
+            valor.addEventListener('mouseenter', () => {
+              valor.style.backgroundColor = "var(--hoverTextButton"
+            })
+            valor.addEventListener('mouseleave', () => {
+              valor.style.backgroundColor = "var(--TextWhiteThree)"
+            })
+          })
           
         
     }
@@ -222,11 +239,11 @@ three.addEventListener('click', () => {
     two.style.backgroundColor = "var(--toggleThree)"
     three.style.backgroundColor = "var(--backgroundToggleThree)"
     for(let i = 0; i <= 15; i++){
+        btn[i].classList.add("transicao");
         btn[i].style.color = "var(--textYellowThree)"
         btn[i].style.backgroundColor = "var(--colorButtonThree)"
         btn[i].classList.add('border2')
         btn[i].style.borderBottom = "3px solid var(--borderNumbersThree)";
-        
     }
 })
 
@@ -269,6 +286,15 @@ function adicionaHoverThree(){
       two.addEventListener('mouseleave', function () {
         two.style.backgroundColor = 'var(--toggleThree)';
       });
+
+      btn.forEach(valor => {
+        valor.addEventListener('mouseenter', () => {
+          valor.style.backgroundColor = "var(--hoverColorButtonThree)"
+        })
+        valor.addEventListener('mouseleave', () => {
+          valor.style.backgroundColor = "var(--colorButtonThree)"
+        })
+      })
     
     
 }
