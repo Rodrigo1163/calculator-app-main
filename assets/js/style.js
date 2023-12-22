@@ -196,7 +196,7 @@ function adicionaHoverTwo(){
           });
           btn.forEach(valor => {
             valor.addEventListener('mouseenter', () => {
-              valor.style.backgroundColor = "var(--hoverTextButton"
+              valor.style.backgroundColor = "var(--hoverTextButton)"
             })
             valor.addEventListener('mouseleave', () => {
               valor.style.backgroundColor = "var(--TextWhiteThree)"
