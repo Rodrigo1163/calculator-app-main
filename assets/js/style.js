@@ -14,6 +14,7 @@ let backgroundToggle = document.querySelector('.labelButtonTheme');
 let num = document.querySelector('.btnNumber');
 const two = document.querySelector('.button-twe');
 
+displayInput.readOnly = true;
 displayInput.focus();
 two.addEventListener('click', () => {
     
