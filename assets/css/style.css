@@ -197,7 +197,13 @@ header h3{
     font-weight: 700;
     color: var(--textButton);
     border-bottom: 3px solid var(--borderNumberOne);
-    
+    transition: 500ms;
+}
+.btnNumber{
+    background-color: var(--TextWhiteThree);
+}
+.btnNumber:hover{
+   background-color: var(--hoverTextButton);
 }
 .btnReset, .btnEq{
     width: 160px;
@@ -228,4 +234,26 @@ header h3{
 
 td {
     padding: 8px;
+}
+
+@media (max-width: 375px){
+    body{
+        overflow: hidden;
+    }
+    .container{
+        width: 90%;
+    }
+    .btn{
+        width: 50px;
+        height: 60px;
+    }
+    .btnReset, .btnEq{
+        width: 100%;
+    }
+    header h3{
+        font-size: 40px;
+    }
+    .theme {
+        font-size: 18px;
+    }
 }
